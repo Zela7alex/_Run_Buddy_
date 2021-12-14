@@ -111,3 +111,11 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.agecheck {
+    margin-top: 9px;
+    margin-left: 4px;
+}
