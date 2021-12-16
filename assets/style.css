@@ -65,7 +65,7 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* Home Page Hero Style Start */
 .hero {
     background-image: url("./images/hero-bg.jpeg");
     height: 600px;
@@ -73,7 +73,6 @@ section {
     background-position: center;
     position: relative;
 }
-
 
 /* Hero Form */
 .hero-form {
