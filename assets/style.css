@@ -11,7 +11,12 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    
 }
 
 header h1 {
@@ -19,7 +24,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    
     
 }
 
@@ -29,7 +34,7 @@ header a {
 }
 
 header nav {
-    float: right;
+    
     margin: 7px 0;
 }
 
@@ -67,16 +72,15 @@ section {
 
 /* Home Page Hero Style Start */
 .hero-cta {
-    flex-direction: column;
+    
 }
 .hero-cta h2{
     font-size: 35px;
     font-weight: bold;
     font-style: italic;
     color:#fce138;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: black;
     opacity: 0.8;
+    
 
 }
 .hero-cta p {
